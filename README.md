@@ -12,3 +12,23 @@ python main.py
 ## Kind Reminders
 - If you want to customize the categories of your expenditure/revenue, update `categories.py` file.
 - The UI of the app is not well designed. If you want to customize the UI or the theme colors, use `style_sheet.py`.
+
+## Notes
+
+This is my first project with PyQt5, if you have any comment or suggestion for the codes, I would welcome and appreciate it. 
+
+Besides, I would be grateful if you could provide me with some guidances for the UI design. 
+
+Question Jan 6th, 2025: When adding the hovering effect for the `QCalendarWidget`, I tried to add the following lines in my style sheets but it didn't work.
+
+```css
+QCalendarWidget QAbstractItemView::item:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+QCalendarWidget QAbstractItemView::item:selected {
+  background-color: #d8d8d8;
+  border-radius: 5px;
+}
+```
