@@ -8,3 +8,7 @@ The project was built with PyQt5 version 5.15.11 and Python 3.12.5. Make sure yo
 pip install -r requirements.txt
 python main.py
 ```
+
+## Kind Reminders
+- If you want to customize the categories of your expenditure/revenue, update `categories.py` file.
+- The UI of the app is not well designed. If you want to customize the UI or the theme colors, use `style_sheet.py`.
