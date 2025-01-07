@@ -9,6 +9,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+The icons are from flaticon.com.
+
 ## Kind Reminders
 - If you want to customize the categories of your expenditure/revenue, update `categories.py` file.
 - The UI of the app is not well designed. If you want to customize the UI or the theme colors, use `style_sheet.py`.
